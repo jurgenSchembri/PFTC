@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jurgen-cloud-project",
+  "private_key_id": "5f077f2e1ba157a9d65c5b1bc3fcff75e282e305",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+OEppLuyj7BWb\nzBWl2bHA+KFpQnfBW4yXIhrT+uiCx/Stf0IPWXB/Uz4HgwqgW7ui3DecO5x5N7Ge\nqrpYZ03ArqV7HoOk68B7iwm3h0uph1XKTVecoZzatGnRntvcdp15KXs9xz9i52/F\nL4Hw8XBRZmg+VOm/NUR/igHcX4XUPsmDgHMQ/EX/sN1tuBuCnNKX+LAZRUvHwxYy\nm6ZlftGvrgnH+2FQ1nltwuHwQjA6YsR/FXNCSfnLWrvoHT2OtcmuD0mBL4+eCrq6\nQdqjkXnCc9WXfh1U68PBN7Nh5uLthTtmazbg7FKf5dx+myKixFK2ssLlmcJFLTbR\n4TI+JrBNAgMBAAECggEAA1gphMJosjQdKCVVLxqN+8LTUa6zvNBPfzvABYCYlG4Q\nEPnXDz6HEhIEWez1o56hRKqDBsnshRwT0SKWzqWYUh4v9iNx9JUZiAKIi/PCwosI\n2Nr1wqD7yUOZRbB5lJ14RNBUJKCrbmF7z1d3vST9kMzQYeIrzusQln52bGm4iGP/\nbeyXNnGVlOmVMi4x+XG6LyDtH31VBltQ877iit50zsK20tHOupFlZ7Pt0bVCB/41\nhc/KkQ68oXBA+UUmj2RESW4vaBF1Vge3fbwkgLysYSLQInE3JQGaMRXfm+lXFVeD\n7hTlHrlm6kD6Gzoe9hBAGrt++RD7FikywVYzcwJb8QKBgQDuqcih1wGKCJt81XJT\n0Sncas3mKTaTz6zU5WyxxBTUaFK4ofLygRBNiR08it5cT2sRGgD87huojde/nq8X\nwOoTGdlR5lvueUYnzsl+TKBoh7iyFSN4JwWPVYZ1DnjnQX5bXFL81SPB2X59fZaf\n0l0ADF/ujSj5XqPbd/npU3sOEQKBgQDMCaXKcUpSi1kdxeXgqCDlNk6raFGzbZjE\n7QSts1rXoKpyokEwBQM4QeLLabSI7xR4A6R1QGVDe2mtWq06LdA6ZTorUKaMpo+x\nFzVu+TNcQWi1JKFG+9rw5MNAe/zXlXRKfqntl3hw28GpDb38BkoR2ZGagsZmHNmw\n/dJysbmyfQKBgQDA5vRmcy0oT3q1tKQ6wQXvxVf033zgjewpC+MF7/HSGRw7ZZLD\nlbQCp3+9DpVZ0Us9wGHqDd7HJxaqJ+1n6qKHm83+l43Yu6cLx+Uus2q38nNDZTiN\nBiVFTCBofrEUYehqmb3t46yKI2xMq/TR6ysGPfpQC0KCBI+2dUvG3pXIsQKBgFrD\nO+XXCYm4hRbybnTGNYPg6ZPkHtvjN9751Gf0bceXp9rAhKD4ydrfrCRyTCXRvFg6\nvpCN6b3gCz1bJc3IjWU8nGiiQsQ0X50WRuWrowY57nsN5VQvOtCH4rcvsGSyDf4J\nZEvVYnVJvFcYTtfqcE6KavPBksHfuZK7Bj+RAZr9AoGAAVeekmqBPMlWld1Qr5P1\n3srH+RihTfBWhqBC3IDa/UthzZKLDbfr3kBvS/dSzwARe/C+hhL5Ga+0nlSLwlzS\n8t27gAtMHKqLTF8L81Mm5MdCFms1y4HdT/cBLkFdkDJMJu3IADZcsXLqeiGyRBMC\nSro2FZLjfG1CujhDIUA9OKo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pfcdatastore@jurgen-cloud-project.iam.gserviceaccount.com",
+  "client_id": "113303082862374884886",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pfcdatastore%40jurgen-cloud-project.iam.gserviceaccount.com"
+}
