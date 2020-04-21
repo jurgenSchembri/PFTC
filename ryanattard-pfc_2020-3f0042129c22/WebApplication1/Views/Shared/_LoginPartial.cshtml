@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><span style="color: white">Hello @User.Identity.Name&emsp;</span></li>
+    </ul>
+
+    <a style="color: white" href="/Account/LogOff">Log off</a>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><span style="color: white">@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</span></li>
+    </ul>
+}
