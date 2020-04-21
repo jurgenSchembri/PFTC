@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebApplication1.Models.File>
+<br />
+@{
+    ViewBag.Title = "Send Email";
+}
+<h2>Send</h2>
+<hr />
+@if (User.Identity.IsAuthenticated)
+{
+    using (Html.BeginForm("Send", "Files", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", role = "form" }))
+    {
+    <div>
+        <input type="hidden" value="@Request.Params["FieldId"]" name="FieldId" />
+        <div class="row">
+            <label class="col-md-2 control-label" for="email">Email</label>
+            <input class="col-md-4 form-control" type="text" name="Email" required />
+        </div>
+        <br />
+        <div class="row">
+            <label class="col-md-2 control-label" for="Message">Message</label>
+            <input class="col-md-4 form-control" type="text" name="Message" />
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-5"></div>
+            <button type="submit" class="btn btn-md btn-dark">Submit</button>
+        </div>
+    </div>
+    }
+}
+else
+{
+    <div>
+        <p>Please Register/Login in order to access this service.</p>
+    </div>
+}
